@@ -10,3 +10,12 @@ function isPrime(num){
     return true;
 }
 console.log(isPrime(11));
+
+function checkEvenOdd(num){
+    if(num%2==0){
+        return true;
+    }else{
+        return false;
+    }
+    }
+console.log(checkEvenOdd(10));
